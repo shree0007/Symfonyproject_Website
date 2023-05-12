@@ -1,0 +1,25 @@
+{% extends "base.html.twig" %}
+
+{% block content %}
+
+
+	<div class="wrapper">
+
+		<h2>🏎 F1 Races in 2023 🏎</h2>
+		{% for race in data.MRData.RaceTable.Races %}
+
+			<div class="f1-container">Racename: "{{race.raceName}}"
+				<br/>
+				Round: "{{race.round}}"<br/>
+				Circuit Name:"{{race.Circuit.circuitName}}"<br/>
+				<div class="info-btn">
+					<a href="{{race.url}}">more info!</a>
+				</div>
+			</div>
+			<br/>
+
+		{% endfor %}
+
+
+	</div>
+{% endblock %}
