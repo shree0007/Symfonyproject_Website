@@ -1,6 +1,6 @@
 # BASIC WEBSITE
 
-This is a group assignmnet for the course 'Symfony Framework'. The assignment is to create a basic website with different navigation pages using Symfony framework . The website contains nva links: home, F1 Race, gallery, contact, and About BCH. 
+This is a group assignmnet for the course 'Symfony Framework'. The assignment is to create a basic website with different navigation pages using Symfony framework . The website contains nav links: Home, F1 Race, Gallery, Contact, and About BCH. 
 
 ## Technologies used
 
